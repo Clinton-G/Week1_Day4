@@ -1,6 +1,5 @@
-# Task 1:
+weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-# print day of week, ONLY IF EVEN INDEX
-
-
-#----------------------------------------------------------------------------------------------------
+for index, day in enumerate(weekdays):
+    if index % 2 == 0:
+        print(day)

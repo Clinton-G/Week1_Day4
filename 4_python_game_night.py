@@ -1,4 +1,3 @@
-# Task 1:
 import random
 
 
@@ -22,10 +21,3 @@ while True:
     if win == 'no':
         print('Play Again!')
         dealer = random.choice(type)
-
-
-
-
-
-
-# random.choice()

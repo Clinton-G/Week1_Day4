@@ -1,26 +1,17 @@
-# Task 1:
+iteration = 0
 
+while iteration <= 5:
+    iteration += 1
 
+    answer = input("Choose Wisely: (yes/no): ")
 
+    if answer == "yes":
+        print("Iteration", iteration,":", "nice, let's go again.")
 
-tacos = []
-people = input('what is your name? ')
+    elif answer == "no":
+        print("Have a Good Day!")
+        break
 
-
-
-while len(tacos) < 5:
-    print('handing out tacos to', people)
-    tacos.append(people)
-
-
-print(tacos)
-
-
-#----------------------------------------------------------------------------------------------------
-# Task 2:
-
-
-
-
-
+    else:
+        print("Invalid Input, Try Again")
 
